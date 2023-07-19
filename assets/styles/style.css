@@ -1,0 +1,195 @@
+*{
+    padding:0;
+    margin:0 ;
+    text-decoration: none; 
+    /*border: 1px solid red;*/
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(241, 150, 150, 0.432);
+}
+nav a{
+    text-decoration:solid;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    border:5px solid rgba(214, 139, 196, 0.486);
+    color: rgb(255, 255, 255);
+    background-color: rgba(243, 119, 119, 0.753);
+    padding: 1rem, 0,5rem;
+    border-radius: 1rem;
+    padding-inline: 1rem;  
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+main h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: double;
+    text-align: center;
+    color: rgb(81, 213, 218);
+    background-color: rgb(200, 238, 238);
+    padding: 1rem,0,5rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    font-style: oblique;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-decoration: dashed;
+    font-weight: 100;
+    font-style: oblique;
+    color: firebrick;
+    font-size: 2rem;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    width: 75rem;
+    height: 20rem;
+    object-fit:cover;
+    object-position:30% 40%;
+}
+.page1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.page1>p{
+    width: 40%;
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.foto1{
+    width: 30%;
+    height: 15rem;
+}
+.aboutus div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+.foto2, .foto3, .foto4{
+    width: 28%;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 4rem;  
+    border-radius: 3rem; 
+}
+
+.divfoto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+.pfoto{
+    color: rgb(181, 96, 238);
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.imgcontact {
+    width: 50%;
+    height: 25rem;
+    border-radius: 4rem;
+}
+.parrafocontact{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(22, 163, 206);
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.parrafo2contact{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content:space-around;
+    color: rgb(22, 163, 206);
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.acontact{
+    color:rgba(226, 112, 255, 0.733)
+}
+.divbt, .div2bt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.imgbt, .img2bt{
+    width: 28%;
+    height: 20rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3rem;
+    margin-left: 8rem;
+}
+.divbt li{
+    width: 30rem;
+}
+.divinfo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40rem;
+    height: 27rem;
+    border: solid;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout:fixed;
+    justify-content: center;
+    margin-top: 3rem;
+}
+th{
+    color: rgb(8, 58, 45);
+    padding: 2em;
+    border: solid
+}
+td{
+    color: rgb(6, 95, 91);
+    border: solid;
+}
+footer{
+    color: rgba(128, 128, 128, 0.973);
+    background-color: rgba(127, 255, 212, 0.514);
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: 0%;
+}
+
+
+
+
